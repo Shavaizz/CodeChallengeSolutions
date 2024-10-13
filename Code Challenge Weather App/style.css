@@ -1,0 +1,55 @@
+body{
+    background-color:black;
+    color: #f3f3e4;
+    font-family: "Open Sans", system-ui;
+    background-image:url('background.jpg');
+    background-position: center;
+    background-repeat:no-repeat;
+    background-size: auto;
+}
+h1{
+    color:#f3f3e4;
+}
+.header-section{
+    display: flex;
+    flex:auto;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#search-area input{
+    flex: auto;
+    flex-flow: column;
+    margin-top: 5%;
+    margin-left: 1px;
+}
+
+.weather-display{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#weather-box{
+    margin: 10px;
+}
+.container {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(37, 33, 33, 0.5); /* Set the background color to be transparent */
+    border-radius: 2px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Adjust the alpha value here for the box shadow transparency */
+}
+#weather-box{
+    display: flex;
+    flex-direction:row;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;   
+}
+.wrapper{
+    margin-top:40vh;
+}
